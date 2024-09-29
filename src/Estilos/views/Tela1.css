@@ -1,0 +1,54 @@
+.tela1-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tab.active {
+    background-color: #ffcccc;
+  }
+  
+  .solicitacoes-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .solicitacoes-table th, .solicitacoes-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .aberta {
+    background-color: orange;
+  }
+  
+  .concluida {
+    background-color: green;
+  }
+  

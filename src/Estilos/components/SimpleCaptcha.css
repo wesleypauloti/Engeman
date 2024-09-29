@@ -1,0 +1,84 @@
+.captcha-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .captcha-text {
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: blue;
+    background-color: aqua;
+  }
+  
+  .captcha-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: none;
+  }
+  
+  .captcha-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .captcha-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+
+  .fake-input {
+    border: none; /* Remove a borda do input fictício */
+    outline: none; /* Remove o contorno ao focar */
+    flex: 1; /* O input ocupa o espaço restante */
+    padding: 10px; /* Espaçamento interno do input */
+    font-size: 16px; /* Tamanho da fonte */
+    background: transparent; /* Fundo transparente */
+  }
+  
+  .icon {
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    margin-left: 10px; /* Espaçamento à esquerda do ícone */
+    color: blue; /* Altere para a cor desejada */
+    font-size: 20px; /* Tamanho do ícone */
+  }
+  
+  .fake-input::placeholder {
+    color: blue; /* Altere para a cor desejada */
+  }
+  
+  
+  .login-input::placeholder {
+    opacity: 1; /* Altera a opacidade do placeholder */
+  }
+
+  .input-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .input-container:focus-within {
+    border-color: #66afe9; /* Muda a cor da borda quando o input fictício está focado */
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); /* Sombra quando focado */
+  }
+  

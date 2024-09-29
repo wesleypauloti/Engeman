@@ -1,0 +1,36 @@
+.tela3-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.detailed-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filter-row {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-row label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.filter-row input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-apply {
+  padding: 10px;
+  background-color: #ffcccc;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}

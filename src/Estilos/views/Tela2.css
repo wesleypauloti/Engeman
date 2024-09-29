@@ -1,0 +1,35 @@
+.tela2-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filter-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.filter-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-filter {
+  grid-column: span 3;
+  padding: 10px;
+  background-color: #ffcccc;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
